@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--slate-300);
+    font-family: outfit, sans-serif;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+    
+}
+
+.main-cotainer{
+   max-width: 1440px;
+   overflow: hidden;
+   
+}
+
+.content-container{
+    width: 16rem;
+    background-color: var(--White); 
+    text-align: center;
+    padding: 0.8rem; 
+    border-radius: 0.4rem;
+    font-family: inherit;
+}
+
+.qr-image{
+ width: 100%; 
+border-radius: 0.4rem;
+}
+
+.text-content{
+    color: var(--slate-900);
+    max-width: 12rem;
+    padding: 0.4rem 0;
+    margin: auto;
+    font-weight: 700;
+   
+  
+}
+.text-description{
+   width: 100%;
+    padding: 0.4rem 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--slate-500);
+}
+
+
+@media screen {
+    html,
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--slate-300);
+            font-family: outfit, sans-serif;
+        }
+
+    .main-cotainer {
+            max-width: 375px;
+            overflow: hidden;
+    
+        }
+
+
+}
+
